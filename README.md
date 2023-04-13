@@ -15,7 +15,9 @@ Ensure proper data format for each column
 
 # EDA PROJECT
 
-1) create a function that will generate 'n' weather data records. The schema is as follows:
+Part 1 :
+]
+reate a function that will generate 'n' weather data records. The schema is as follows:
 
 NO HARDCODING
 
@@ -48,3 +50,57 @@ floods: Flood conditions (any 1 value from 'always', 'rarely', 'never')
 visibility: Average visibility (random float between 0.25-10)
 
 acc_due_to_fog: Accidents due to fog (random integers between 1000-15000)
+
+
+Part 2
+
+-- 2) create a dataframe to store the above details (eg df1)
+
+-- 3) Run the function again to create a new dataframe (eg df2)
+
+-- 4) Merge the two dataframes into a single dataframe
+
+-- 5) write the dataframe as a CSV file
+
+Part 3
+
+-- 6) read the above CSV file and check contents
+
+-- 7) check the dimensions
+
+-- 8) check the data types of columns. Change data type wherever required
+
+-- 9) create an index on the place name
+
+-- 10) Check the distribution of numerical data.
+
+-- 11) Do a statistical analysis on the numeric data and identify outliers
+
+-- 12) For the categorical data, do an aggregation summary
+
+
+
+
+Part 4 (analysis and data mining)
+
+-- 13) Do the following analysis (write the python queries)
+
+i) Identify the cities which always floods
+
+ii) Which are the cities that have the highest and lowest accidents due to fog?
+
+iii) Select the high area locations ?
+
+iv) What is the distribution of places based on the wind direction ?
+
+v) What is the average day temperature based on the wind direction?
+
+vi) Select the places that have a high humidity (more than 80 )
+
+vii) Is there a relation between pollution and elevation of a place ? Show this with a graph/chart
+
+viii) Which are the areas that have a very low visibility (< 2 kms)?
+
+ix) Group the data into 5 zones of atmospheric pressure and find the distribution of data .
+
+x) Add a new column "last update" and impute it with random date for each row
